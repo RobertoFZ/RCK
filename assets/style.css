@@ -1,0 +1,1637 @@
+body {
+    color: #333;
+    font: 300 15px/15px Roboto, Arial, Helvetica;
+    /*background: url(../images/bg2.jpg) right no-repeat fixed #fff;*/
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    background: #111;
+}
+
+a {
+    color: #00a9c6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+.btn, a, .btn:hover, a:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    outline: none !important;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    line-height: 1em;
+}
+
+h1 {
+    font: 700 5em Roboto, Arial, Helvetica;
+    margin: 0.25em 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 300 2.5em Roboto, Arial, Helvetica;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    font: 300 2em Roboto, Arial, Helvetica;
+    margin: 2em 0 1em 0;
+}
+
+h4 {
+    font: 300 1.5em Roboto, Arial, Helvetica;
+    margin-bottom: 1em;
+}
+
+h4 i {
+    margin-right: 0.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.7em;
+    margin-bottom: 1.7em;
+}
+
+.movile {
+    padding-top: 4em;
+}
+
+.spacer {
+    padding: 4em 0 4em;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+    padding: 1em 4em;
+    background: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.btn:hover, .btn:active {
+    color: #fff;
+}
+
+.btn-default {
+    color: #ccc;
+    border: 1px solid #aaa;
+}
+
+.btn-default:hover, .btn-default:active {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary {
+    color: #fff;
+    background: #e89f10;
+    width: 100%;
+    outline: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #f3c024;
+    box-shadow: none;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.topbar {
+    background: url(img/lines.png);
+    height: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav > li > a {
+    font-size: 1em;
+    line-height: 3.6em;
+}
+
+.navbar-inverse {
+    background: #111;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background: none;
+    color: #E89F10;
+}
+
+#head, .carousel {
+    margin-top: 0;
+}
+
+#home {
+    /*padding-top: 6em;*/
+    /*background: #111;*/
+    padding-top: 4.3em;
+}
+
+#chobi-section {
+    background: #fff;
+}
+
+#contact {
+    background: #fff;
+}
+
+/*about*/
+.about.spacer {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+}
+
+.about-games {
+    background-color: rgba(232, 159, 16, 0.7);
+}
+
+.services ul li {
+    width: 10em;
+    height: 10em;
+    border: 1px solid #ccc;
+    padding: 0;
+    border-radius: 50%;
+    margin: 0 1.25em;
+    line-height: 13.5em;
+    color: #999;
+}
+
+.services ul li span {
+    line-height: 2em;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.services ul li span i {
+    font-size: 3em;
+}
+
+.services ul li span b {
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/*testimonials*/
+.partners img {
+    float: left;
+    margin: 0 75px 30px 0;
+}
+
+.testimonails {
+    min-height: 195px;
+}
+
+.testimonails img {
+    margin-top: 5px;
+}
+
+.testimonails span {
+    color: #888;
+}
+
+.testimonails span b {
+    font-weight: 400;
+}
+
+.carousel-indicators li {
+    border: 1px solid #f3c024;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+/*works*/
+#works {
+    padding-top: 6em;
+}
+
+#works figcaption a {
+    border: 1px solid #fff;
+    margin-top: 1em;
+    display: inline-block;
+    color: #fff;
+    padding: 0 2em;
+}
+
+#works figcaption a:hover {
+    text-decoration: none;
+    padding: 0 3em;
+}
+
+/*works*/
+
+/*team*/
+.team figure {
+    width: 100%;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team b {
+    font-size: 1.2em;
+    display: block;
+}
+
+.team a i.fa {
+    color: #fff;
+    font-size: 2em;
+}
+
+.team a i.fa:hover {
+    color: #E89F10;
+}
+
+.highlight-info {
+    background: url(../images/lab.jpg) center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.highlight-info .overlay {
+    background: rgba(232, 159, 16, 0.7);
+}
+
+.highlight-info h4 {
+    color: #fff;
+    margin: 0.5em 0 0 0;
+}
+
+/*about us*/
+
+/*contact*/
+.contactform textarea, .contactform input, .contactform select {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    border-radius: 0;
+    outline: none;
+}
+
+/*contact*/
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    font-size: 1em;
+    color: #aaa;
+}
+
+.footer a {
+    color: #aaa;
+    margin: 0 1em;
+}
+
+.gototop {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    height: 90px;
+    width: 70px;
+    color: #fff;
+    display: none;
+}
+
+.gototop img{
+    width: auto;
+}
+
+/*
+.gototop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-image: url("img/flechas_2.png");
+    background-size: cover;
+    height: 90px;
+    width: 70px;
+    color: #fff;
+    display: none;
+}
+
+.gototop:hover {
+    background-image: url("img/flechas_1.png");
+    width: 110px;
+    height: 120px;
+    right: 10px;
+}
+*/
+
+.gototop i {
+    line-height: 0.5em;
+}
+
+/* Team */
+.badge {
+    background-color: #777;
+}
+
+.tabs-left {
+    margin-top: 3rem;
+}
+
+.nav-tabs {
+    float: left;
+    border-bottom: 0;
+}
+
+.nav-tabs li {
+    float: none;
+    margin: 0;
+}
+
+.nav-tabs li a {
+    margin-right: 0;
+    border: 0;
+    background-color: #333;
+    border-radius: 0;
+}
+
+.nav-tabs li a:hover {
+    background-color: #444;
+}
+
+.nav-tabs .glyphicon {
+    color: #fff;
+}
+
+.nav-tabs .active .glyphicon {
+    color: #333;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: rgb(232, 159, 16);
+}
+
+.nav > li > a {
+    padding: 5px 15px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: 0;
+}
+
+.tab-content {
+    margin-left: 45px;
+}
+
+.tab-content .tab-pane {
+    display: none;
+    /*background-color: #fff;*/
+    padding: 1.6rem;
+    overflow-y: auto;
+}
+
+.tab-content .active {
+    display: block;
+}
+
+.list-group {
+    width: 100%;
+}
+
+.list-group .list-group-item {
+    height: 50px;
+}
+
+.list-group .list-group-item h4, .list-group .list-group-item span {
+    line-height: 11px;
+}
+
+.cero-margin {
+    margin: 0;
+}
+
+.member-name {
+    font-size: 36px;
+}
+
+.member-country {
+    font-size: 16px;
+}
+
+.member-job {
+    font-size: 24px;
+}
+
+.member-description {
+    color: #3a3a3a;
+}
+
+.member-cite {
+    font-style: italic;
+}
+
+.member-student {
+    font-size: 14px;
+}
+
+.team-p {
+    background: #ffedd7;
+    padding: 120px 10px 20px 10px;
+    margin: 0 20% 0 20%;
+    border-radius: 20px;
+    line-height: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inherit;
+}
+
+b {
+    font-weight: 500;
+}
+
+.social-links {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.social-links li a {
+    padding: 20px 10px;
+    color: rgb(232, 159, 16);
+}
+
+.social-links li a:hover {
+    color: #5f5f5f;
+}
+
+.social-links li {
+    font-size: 22px;
+}
+
+/* Social Links Section */
+.social-links-container {
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 50px;
+    height: auto;
+    z-index: 999;
+    background: #111;
+    border: solid #111;
+    border-radius: 0 10px 10px 0;
+}
+
+.social-links-container ul {
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+}
+
+.social-links-container ul li {
+    padding: 5px 0 5px 0;
+}
+
+/* Social Links Section ENDS */
+
+#thumbnail-slider {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.choby-descrip {
+    text-align: justify;
+    margin: 20px 0 20px 0;
+    color: #E89F10;
+}
+
+.divider {
+    margin: 20px 0;
+    border: 1px solid #E89F10;
+}
+
+.divider-2 {
+    margin: 0;
+    border: 2px solid #E89F10;
+}
+
+.navbar-brand {
+    padding: 10px 0;
+}
+
+.coming {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/coming/fondo_ghost.jpg");
+}
+
+.coming-text {
+    text-align: justify;
+    color: white;
+    padding: 50px 30px 5px 30px;
+    /*margin: 0 70px 0 40px;*/
+    /*background: rgba(0, 0, 0, 0.75);*/
+    /*background-size: contain;*/
+    /*background: url("img/coming/fondo texto.png") center;*/
+    /*border-radius: 10px;*/
+}
+
+.parent-div {
+    position: absolute;
+    left: 45%;
+    z-index: 999;
+}
+
+.team-title b {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h2.text-center.team-title {
+    margin: 50px;
+}
+
+.element-to-center {
+    position: relative;
+    left: -50%;
+}
+
+.ghost-descript-div {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin: 0 20% 0 10%;
+    top: 150px;
+}
+
+.vertical-img {
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#ghost-descrip {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100%;
+}
+
+.valign-wrapper {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100%;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+}
+
+.valign {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer {
+    padding: 2em 4em;
+}
+
+#team-info {
+    position: relative;
+    margin: 0;
+    padding-left: 25px
+}
+
+.RCK-team {
+    padding: 60px;
+}
+
+.RCK-name {
+    font-size: 22px;
+}
+
+.RCK-slogan {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.RCK-info {
+    font-size: 14px;
+}
+
+.RCK-info-div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.crew-title {
+    position: relative;
+    height: 200px;
+    border: none #E89F10 2px;
+    border-bottom-style: solid;
+}
+
+.crew-content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.team-member-container {
+    position: relative;
+    height: 100%;
+}
+
+.team-member-container img {
+    position: absolute;
+    bottom: 0;
+}
+
+.social-list a {
+    color: rgb(232, 159, 16);
+    font-size: 22px;
+}
+
+.cf img {
+    position: absolute;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.cf img.top:hover {
+    opacity: 0;
+}
+
+.crew-content p {
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.border-style-2 {
+    border: none #E89F10 2px;
+    border-left-style: solid;
+}
+
+.vertical-list {
+    list-style: none;
+    position: inherit;
+    width: 132px;
+}
+
+.vertical-list li {
+    height: 110px;
+}
+
+#ghostLogo-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#ghostLogo {
+    cursor: pointer;
+    width: 50%;
+}
+
+#ghostLogoSmall {
+    cursor: pointer;
+}
+
+.game {
+    width: 43px;
+}
+
+.game-active {
+    width: 63px;
+}
+
+.game-indicator {
+    display: inline-flex;
+    list-style: none;
+    padding: 100px 0 0 0;
+}
+
+.game-indicator li {
+    padding: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.error-form {
+    font-size: 16px;
+    color: red;
+    display: none;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
+
+.modal-content {
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-dialog {
+    margin-top: 120px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal.and.carousel {
+    position: fixed;
+}
+
+#coming-xs {
+    background-size: cover;
+    background: url("img/coming/fondo_ghost.jpg") 40%;
+    padding-bottom: 20px;
+}
+
+.ghost-mob-descrip {
+    padding: 15px 15px 15px 15px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.member-mob {
+    height: 600px;
+}
+
+.text-mob {
+    color: white;
+}
+
+.team-p-mob {
+    margin: 0 10% 0 10%;
+    padding: 50px 10px 40px 10px;
+}
+
+#contact {
+    /*margin: 10px;*/
+    padding: 10px;
+}
+
+.img-list {
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Next Button */
+.next {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.next:hover,
+.next:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.videoplayer-img {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 780px;
+}
+
+.center-player {
+    position: absolute;
+    left: 50%;
+    /*top:0;*/
+}
+
+.center-play-btn {
+    position: absolute;
+    left: 50%;
+}
+
+.play-youtube-btn {
+    background: none;
+    border: none;
+}
+
+.play-youtube-btn {
+    position: absolute;
+    top: 210px;
+    height: 50px;
+    width: 70px;
+    right: 400px;
+}
+
+.play-btn, .next-btn, .prev-btn {
+    z-index: 9999;
+}
+
+.play-btn {
+    background: none;
+    border: none;
+    position: relative;
+    left: -50%;
+    width: 80px;
+    height: 80px;
+}
+
+.hover-img {
+    cursor: pointer;
+}
+
+.next-btn, .prev-btn, .play-btn, .play-youtube-btn {
+    outline: none;
+}
+
+.next-btn {
+    position: absolute;
+    top: 300px;
+    background: none;
+    border: none;
+    right: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.prev-btn {
+    position: absolute;
+    top: 300px;
+    background: none;
+    border: none;
+    left: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.play-img {
+    width: 95px;
+    position: relative;
+}
+
+.next-img {
+    width: 65px;
+    position: relative;
+}
+
+#next-btn {
+    position: absolute;
+    top: 330px;
+    right: 250px;
+}
+
+#previous-btn {
+    position: absolute;
+    top: 330px;
+    left: 250px;
+}
+
+#next-btn, #previous-btn {
+    color: #f1f1f1;
+    background: none;
+    border: none;
+    width: 30px;
+    height: 40px;
+    font-size: 28px;
+    margin: 10px;
+}
+
+#previous-btn:hover, #next-btn:hover {
+    color: #807e7e;
+}
+
+#player {
+    border-radius: 50px;
+    width: 530px;
+    height: 290px;
+}
+
+#video-container {
+    padding-top: 10%;
+    /*adding-bottom: 35%*/
+}
+
+#email-msg, #email-msg-error{
+    display: none;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#email-msg-error{
+    display: none;
+    color: red;
+    margin: 0;
+}
+
+video, iframe {
+    border-radius: 50px;
+    width: 470px;
+    height: 290px;
+}
+
+@media (min-width: 1200px) {
+
+    .img-list {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .gameInfo {
+        padding-top: 100px;
+    }
+
+    #coming {
+        height: 100%;
+    }
+
+    /*
+    .RCK-info-div{
+        padding: 20% 30px 30px 30px;
+    }
+    */
+    #team-section {
+        height: auto;
+        background: #fff;
+    }
+
+    .RCK-info {
+        padding: 0 25px;
+    }
+
+    .ghost-descript-div {
+        margin: 0 10% 0 10%;
+    }
+
+    .parent-div {
+        left: 50%;
+    }
+
+    .videoplayer-img {
+        top: 10px;
+        width: 500px;
+    }
+
+    video {
+        width: 330px;
+    }
+
+    .play-btn {
+        background: none;
+        border: none;
+        position: relative;
+        left: -50%;
+        width: 60px;
+        height: 40px
+    }
+
+    .play-img {
+        width: 55px;
+        position: relative;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 250px;
+        background: none;
+        border: none;
+        right: 150px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: 245px;
+        background: none;
+        border: none;
+        left: 140px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .next-img {
+        width: 40px;
+        position: relative;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+    #player {
+        width: 450px;
+        height: 250px;
+        margin-top: 70px;
+    }
+
+    .videoplayer-img {
+        left: 60px;
+        top: 40px;
+        width: 650px;
+    }
+
+    video {
+        width: 330px;
+    }
+
+    .play-img {
+        width: 55px;
+    }
+
+    .play-btn {
+        width: 80px;
+        height: 50px;
+    }
+
+    .play-youtube-btn {
+        position: absolute;
+        top: 220px;
+        height: 40px;
+        width: 50px;
+        right: 340px;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 300px;
+        background: none;
+        border: none;
+        right: 90px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: 300px;
+        background: none;
+        border: none;
+        left: 90px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .next-img {
+        width: 40px;
+        position: relative;
+    }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    body {
+        font: 300 13px/13px Roboto, Arial, Helvetica;
+    }
+
+    .navbar-brand {
+        padding-top: 11px;
+    }
+
+    .services ul li {
+        margin: 0 0.5em;
+    }
+
+    .grid figure h2 {
+        font: 700 1.5em Roboto, Arial, Helvetica;
+    }
+
+    figure.effect-oscar figcaption {
+        padding: 12%;
+    }
+
+    figure.effect-oscar figcaption::before, figure.effect-chico figcaption::before {
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .partners img {
+        margin: 0 25px 25px 0;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font: 700 3.5em Roboto, Arial, Helvetica;
+    }
+
+    h4 {
+        font: 300 1.3em Roboto, Arial, Helvetica;
+    }
+
+    .btn {
+        padding: 1em 2em;
+    }
+
+    .partners img {
+        margin: 0 15px 25px 0;
+        width: 157px;
+    }
+
+    .services ul li {
+        width: 9em;
+        height: 9em;
+    }
+
+    figure.effect-chico figcaption {
+        padding: 2em;
+    }
+
+    figure.effect-oscar figcaption {
+        padding: 20%;
+    }
+
+    figure.effect-chico figcaption::before {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .grid figure.effect-chico p {
+        font-size: 0.6em;
+        line-height: 1.5em;
+    }
+
+    #ghost-descrip {
+        top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #player {
+        border-radius: 50px;
+        width: 330px;
+        height: 220px;
+        padding-top: 30px;
+    }
+
+    body {
+        font: 300 12px/12px Roboto, Arial, Helvetica;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 1em;
+    }
+
+    .navbar-brand {
+        padding: 7px;
+    }
+
+    .navbar-brand img {
+        height: 37px;
+    }
+
+    .navbar-toggle {
+        margin-top: 12px;
+    }
+
+    h2.text-center {
+        /*text-align: left;*/
+        font-size: 1.7em;
+    }
+
+    h4 {
+        font: 300 1.2em Roboto, Arial, Helvetica;
+    }
+
+    #partners h2 {
+        padding: 0 1em;
+    }
+
+    #home {
+        padding-top: 4em;
+    }
+
+    .partners {
+        display: block;
+        float: left;
+    }
+
+    .partners img {
+        width: 120px;
+    }
+
+    .about.spacer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .spacer {
+        /*padding: 2em 0 0 0;*/
+    }
+
+    .services ul li {
+        margin-bottom: 1em;
+    }
+
+    .highlight-info .overlay {
+        padding-bottom: 2em;
+    }
+
+    .grid.team div {
+        margin: 0;
+        padding: 0;
+    }
+
+    figure.effect-chico figcaption {
+        padding: 1.5em;
+    }
+
+    .footer {
+        margin-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .background-mob {
+        background: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1369px) {
+    .margin-ricardo {
+        margin-left: 38%;
+    }
+
+    .team-member-container img {
+        left: 15px;
+    }
+
+    .cf img {
+        left: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .videoplayer-img {
+        top: -20px;
+        width: 430px;
+    }
+
+    #player {
+        width: 270px;
+        height: 180px;
+    }
+
+    .play-btn {
+        width: 50px;
+        height: 40px;
+    }
+
+    .play-youtube-btn {
+        top: 95px;
+        height: 40px;
+        width: 50px;
+        right: 255px;
+    }
+
+    .next-btn {
+        top: 150px;
+        right: 100px;
+        width: 35px;
+        height: 30px;
+    }
+
+    .prev-btn {
+        top: 150px;
+        right: 100px;
+        width: 35px;
+        height: 30px;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+    #player {
+        width: 240px;
+        height: 160px;
+    }
+
+    .videoplayer-img {
+        width: 350px;
+    }
+
+    video {
+        width: 230px;
+    }
+
+    .play-btn {
+        background: none;
+        border: none;
+        position: relative;
+        left: -50%;
+        width: 40px;
+        height: 20px;
+    }
+
+    .play-img {
+        width: 35px;
+        position: relative;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 165px;
+        background: none;
+        border: none;
+        right: 35px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: 165px;
+        background: none;
+        border: none;
+        left: 35px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .next-img {
+        width: 25px;
+        position: relative;
+    }
+}
+
+@media (min-height: 1000px) {
+    #video-container {
+        /*padding-top: 50%;*/
+    }
+}
+
+@media (min-width: 1000px) {
+    #first_thumb, #second_thumb, #third_thumb, .modal-dialog {
+        width: 900px;
+    }
+}
+
+@media (min-width: 1320px) and (min-height: 900px) {
+    #first_thumb, #second_thumb, #third_thumb, .modal-dialog {
+        width: 1300px;
+    }
+}
+
+.nbs-flexisel-inne {
+    overflow: hidden;
+}
+
+.nbs-flexisel-nav-left {
+    background-size: contain;
+    background-image: url("img/left-arrow.png");
+    background-repeat: no-repeat;
+}
+
+.nbs-flexisel-nav-right.disabled {
+    right: 0;
+    background-size: contain;
+    background-image: url("img/right-arrow.png");
+    background-repeat: no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    background-size: contain;
+    background-image: url("img/right-arrow.png");
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1570px;
+    }
+}
+
+@media (max-height: 1200px) {
+    #chobi-section {
+        height: auto;
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 992px) {
+    .play-youtube-btn {
+        top: 200px;
+        height: 40px;
+        width: 50px;
+        right: 255px;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 260px;
+        background: none;
+        border: none;
+        right: 60px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: 260px;
+        background: none;
+        border: none;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .videoplayer-img {
+        width: 550px;
+    }
+
+    .center-player {
+        left: 47%;
+    }
+
+    #player {
+        width: 380px;
+        height: 220px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .next-btn {
+        position: absolute;
+        top: 340px;
+        background: none;
+        border: none;
+        right: 210px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: 340px;
+        background: none;
+        border: none;
+        left: 210px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .play-youtube-btn {
+        right: 555px;
+        top: 240px;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: 320px;
+        background: none;
+        border: none;
+        right: 250px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: 320px;
+        background: none;
+        border: none;
+        left: 250px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 399px) {
+    .play-youtube-btn {
+        top: 100px;
+        height: 40px;
+        width: 50px;
+        right: 160px;
+    }
+
+    .next-btn {
+        top: 150px;
+        right: 40px;
+    }
+
+    .prev-btn {
+        top: 150px;
+        left: 40px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+    .play-youtube-btn {
+        top: 140px;
+        right: 335px;
+    }
+
+    .next-btn {
+        top: 165px;
+        right: 50px;
+    }
+
+    .prev-btn {
+        top: 165px;
+        left: 50px;
+    }
+}
+
+@media (width: 768px) and (height: 1024px) {
+    .next-btn {
+        top: 260px;
+    }
+
+    .prev-btn {
+        top: 260px;
+    }
+
+    /*#video-container {
+        padding-top: 50%;
+    }*/
+}
